@@ -54,7 +54,12 @@ public class RewriteOfCourseInfo {
 	        pw.write(c.toJSONString());
 	        pw.flush(); 
 	        pw.close();
-			 
+	        /*
+	         * Gen Dependency Graph is onwards. Idk how to import files to proper JSON
+	         * in Java, and I'm too lazy to question it. Hence the catastrophic mismash :P
+	         */
+	        
+	        
 			
 		}catch(IOException e) {
 			e.printStackTrace();
